@@ -43,7 +43,7 @@ class Parser {
         const plantStructureItems = "//PlantModel/PlantStructureItem";
         const processInstrumentationFunctions = "//PlantModel/ProcessInstrumentationFunction";
         const processSignalGeneratingSystems = "//PlantModel/ProcessSignalGeneratingSystem";
-        const taggedPlantItems = "//PlantModel/TaggedPlantItem";
+        const equipment = "//PlantModel/Equipment";
 
         const result = this.queryXPaths([
             actuatingSystems,
@@ -53,7 +53,7 @@ class Parser {
             plantStructureItems,
             processInstrumentationFunctions,
             processSignalGeneratingSystems,
-            taggedPlantItems
+            equipment
         ]);
 
         const list: {
